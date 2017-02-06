@@ -1,0 +1,547 @@
+
+body {
+	height: auto;
+	background-color: #2E2E2E;	
+	margin: 0px;
+	font-family: 'Gabriela', serif;
+}
+
+#left_side{
+	background-color: #353535;
+	height: 100%;
+	width: 20%;
+	float: left;
+	position: fixed;
+	-moz-box-shadow:    inset 0 0 30px #000000;
+   -webkit-box-shadow: inset 0 0 30px #000000;
+   box-shadow:         inset 0 0 30px #000000;
+
+}
+#left_side_container{
+	width: 90%;
+	margin: auto;
+	font-family: 'Nova Square', cursive;
+	color: #c1c1c1;
+	text-align: center;
+}
+#left_footer{
+	background-color: #171717;
+	padding-top: 10px;
+	left: 0px;
+	font-family: 'Nova Square', cursive;
+	color: #c1c1c1;
+	color: gray;
+	text-align: center;
+	-moz-box-shadow:    inset 0 0 30px #000000;
+   	-webkit-box-shadow: inset 0 0 30px #000000;
+   	box-shadow:         inset 0 0 30px #000000;
+   	bottom: 0px;
+
+   	position: fixed;
+   	height: 300px;
+   	width: inherit;
+   	box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  
+  border:10px solid transparent;
+}
+#left_side_logo_Subtitle{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Nova Square';
+	text-shadow: 0px 1px 1px #4d4d4d;
+	color: #101010;
+}
+
+#car_container{
+	background-color: white;
+	height: 500px;
+
+}
+
+#description,#description2{
+	font-family: 'Nova Square', cursive;
+	width: auto;
+
+	height: 122px;
+
+	text-align: center;
+	color: #c1c1c1;
+	background-color: #1d1d1d;
+	border: solid;
+	border-color: #5a5a5a;
+	border-width: 1px;
+	
+		
+}
+#description_h1{
+
+font-size: 15px;
+font-family: 'trajan Pro';
+
+}
+#description_h2{
+font-family: 'Nova Square', cursive;
+}
+
+#instructions{
+	width: auto;
+	height: 20px;
+	font-size: 12px;
+	margin:0px !important;
+	background-color: #424242;
+	text-align: center;
+	font-family: 'Nova Square', cursive;
+	color: #c1c1c1;
+	color: gray;
+	border-style: solid;
+	border-color: #222222;
+	border-width: 1px;	
+}
+#car_outer{
+	width: 100%;
+	background-color: #1d1d1d;
+	height: 122px;
+}
+#car_controls{
+	width: 872px;
+	height: 100px;
+	margin: auto;
+	background-color: red;
+}
+#car_controls_container{
+	font-size: 12px;
+	margin:0px !important;
+	background-color: #424242;
+	text-align: center;
+	font-family: 'Nova Square', cursive;
+	float: left;
+	color: gray;
+	height: 100px;
+	width: auto;
+}
+
+
+#car_view_1{
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Nova Square', cursive;
+	float: left;
+	color: gray;
+	height: 98px;
+	width: 100px;
+	background-color: #1d1d1d;
+	border: solid;
+	border-color: #5a5a5a;
+	border-width: 1px;
+	background-image: url("view1.png");
+}
+#car_view_2{
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Nova Square', cursive;
+	float: left;
+	color: gray;
+	height: 98px;
+	width: 100px;
+
+	background-color: #1d1d1d;
+	border: solid;
+	border-color: #5a5a5a;
+	border-width: 1px;
+	background-image: url("view2.png");
+}
+#car_view_3{
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Nova Square', cursive;
+	float: left;
+	color: gray;
+	height: 98px;
+	width: 100px;
+	background-color: #1d1d1d;
+	border: solid;
+	border-color: #5a5a5a;
+	border-width: 1px;
+	background-image: url("view3.png");
+}
+#car_view_1:hover,#car_view_2:hover,#car_view_3:hover,#startAnim:hover{
+	background-color: #292929;
+}
+#startAnim{
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Nova Square', cursive;
+	float: left;
+	color: gray;
+	height: 98px;
+	width: 60px;
+	background-color: #1d1d1d;
+	border: solid;
+	border-color: #5a5a5a;
+	border-width: 1px;
+	background-image: url("animate.png");
+}
+
+#galleryitem_1,#galleryitem_2,#galleryitem_3{
+	width: 33.3%;
+	height: 300px;
+	background-color: black;
+	float: left;
+	-moz-box-shadow: inset 0 0 30px #000000;
+    -webkit-box-shadow: inset 0 0 30px #000000;
+   	box-shadow: inset  0px 0px 30px #000000;
+	border: solid;
+	border-color: #7a7a7a;
+	border-width: 4px;
+	 -moz-box-sizing:    border-box;
+   -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+    transition: border-width 0.2s;
+    background-color: #7a7a7a;
+}
+#galleryitem_1{
+	background-image: url("gallery_1.png");
+	background-size: 150%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+#galleryitem_2{
+	background-image: url("gallery_2.png");
+	background-size: 150%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#galleryitem_3{
+	background-image: url("gallery_3.png");
+	background-size: 150%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#galleryitem_1:hover,#galleryitem_2:hover,#galleryitem_3:hover{
+	width: 33.3%;
+	height: 300px;
+	background-color: gray;
+	float: left;
+	border-width: 8px;
+}
+#galleryitem_container{
+	width: 90%;
+	margin: auto;
+	height: 300px;
+	background-color: black;
+}
+#left_side_logo{
+	margin: auto;
+	background-image: url("emblem.png");
+	background-size: 80%;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	max-width: 300px;
+}
+#colorswatchcontainer{
+	font-family: 'Nova Square', cursive;
+float: left;
+	width:220px;
+	background-color: #1d1d1d;
+	border: solid;
+	border-color: #5a5a5a;
+	border-width: 1px;
+}
+#colorswatch{
+	width: auto;
+	height: 83px;
+	padding: 10px;
+	background-color: #1d1d1d;
+	border-top: solid;
+	border-bottom: solid;
+	border-color: #5a5a5a;
+	border-width: 1px;
+	-moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+}
+#download_container{
+	height: 50px;
+	width: 90%;
+	margin: auto;
+	background-color: #1d1d1d;
+	border: solid;
+	border-color: #5a5a5a;
+	border-width: 1px;
+	font-family: 'Nova Square', cursive;
+	color: #808080;
+	text-align: center;
+	-moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+
+}
+#download_1,#download_2{
+	height: 30px;
+
+	width: 50%;
+	float: left;
+	background-color: #5a5a5a;
+	border:solid;
+	border-color: #1d1d1d;
+	border-width: 5px;
+	font-family: 'Nova Square', cursive;
+	font-weight: bold;
+	color: #1d1d1d;
+	text-align: center;
+	-moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+
+}
+a{color: #808080;}
+
+#car_view_title{
+	border-bottom: solid;
+	border-color: #5a5a5a;
+	border-width: 1px;
+
+}
+
+
+
+/*_------------------------------------------------------------------*/
+#red,#orange,#yellow,#green,#cyan,#blue,#purple,#pink,#revert{
+
+	border: solid;
+
+	border-width: 1px;
+	float: left;
+	width: 25px;
+	height: 45px;
+	background-color: black;
+	transition: border-width 0.3s;
+	-moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+}
+#red{border-color: red;}
+#orange{border-color: #ff6600;}
+#yellow{border-color: #ffff00;}
+#green{border-color: green;}
+#cyan{border-color: #00ffcc;}
+#blue{border-color: blue;}
+#purple{border-color: #6600ff;}
+#pink{border-color: #fc00ff;}
+#revert{border-color: gray;}
+
+#red:hover,#orange:hover,#yellow:hover,#green:hover,#cyan:hover,#blue:hover,#purple:hover,#pink:hover{
+	border-width: 6px;
+	z-index: 99;
+}
+#revert{
+	background-color: #1d1d1d;
+	height: 100%;
+	width: 60px;
+	background-image: url("revert.png");
+
+}
+#revert:hover{
+	background-color: #292929;
+}
+
+
+/*_------------------------------------------------------------------*/
+#redp,#orangep,#yellowp,#greenp,#cyanp,#bluep,#purplep,#pinkp{
+
+	border: solid;
+
+	border-width: 1px;
+	float: left;
+	width: 25px;
+	height: 45px;
+	background-color: black;
+	transition: border-width 0.3s;
+	-moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
+}
+#redp{border-color: red;}
+#orangep{border-color: #ff6600;}
+#yellowp{border-color: #ffff00;}
+#greenp{border-color: green;}
+#cyanp{border-color: #00ffcc;}
+#bluep{border-color: blue;}
+#purplep{border-color: #6600ff;}
+#pinkp{border-color: #fc00ff;}
+#redp:hover,#orangep:hover,#yellowp:hover,#greenp:hover,#cyanp:hover,#bluep:hover,#purplep:hover,#pinkp:hover{
+	border-width: 6px;
+	z-index: 99;
+}
+
+
+#right_side{
+	float: left;
+	width: 80%;
+	margin-left: 20%;
+	color: white;
+
+}
+
+#wholetopbar{
+	width: 100%;
+	text-align: center;
+	font-size: 60px;
+	font-family: impact;
+	font-family: 'Nova Square', cursive,bold;
+	font-family: 'trajan Pro';
+	background-color: #1d1d1d;
+	color: gray;
+	height: 80px;
+
+	text-shadow: 0px 2px 3px #555;
+	-webkit-font-smoothing: antialiased;
+	
+	top: 0px;
+	left: 0px;
+	/*--border--*/
+	
+	border-bottom: solid;
+	border-color: #c1c1c1;
+	border-width: 1px;
+	/*------*/
+	padding-top: 10px;
+}
+#wholetopbar_subtitle{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	padding-top:5px;
+	font-family: impact;
+	font-family: 'Nova Square', cursive,bold;
+	font-family: 'trajan Pro';
+	background-color: #373737;
+	color: #9b9b9b;
+	height: 30px;
+
+	text-shadow: 0px 2px 3px #555;
+	-webkit-font-smoothing: antialiased;
+	
+	top: 0px;
+	left: 0px;
+	/*--border--*/
+	
+	border-bottom: solid;
+	border-color: gray;
+	border-width: 1px;
+	/*------*/
+
+}
+
+
+
+
+#linkscanvas{
+	background-color: red;
+	
+	height: 20px;
+	width: 180px;
+	margin: auto;
+	
+
+}
+
+.button{
+	width: 90px;
+	float: right;
+
+	
+	
+	
+	text-align: center;
+	color: #9f9f9f;
+	color: white;
+	font-size: 15px;
+	font-weight: 5px;
+}
+
+
+a:link {text-decoration:none;}    
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}  
+a:active {text-decoration:none;}  
+
+
+#mainimagecontainer{
+	
+	background-color: gray;
+	color: red;
+	height: auto;
+	padding: 40px;
+	text-align: center;
+	background-position: center 1px;
+	background-repeat: no-repeat;
+	
+	transition: background-position 3s;
+	transition: height 3s;
+	-moz-box-shadow: inset 0 0 30px #000000;
+    -webkit-box-shadow: inset 0 0 30px #000000;
+   	box-shadow: inset 0 30px 30px -30px #000000;
+   	
+
+}
+
+#test1,#test2{
+	width: 300px;
+	color:white;
+	background-color: gray;
+	margin: 0px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+
+#actual_car_holder{
+	background-color: #999999;
+	width: 100%;
+	height: 100%;
+}
+
+#content_selector{
+	width: auto;
+	height: 500px;
+	color: #c1c1c1;
+	padding: 10px;
+	margin: 0px;
+	background-color: #353535;
+	text-align: center;
+}
+
+#arrowDown{
+	width: auto;
+	height: 15px;
+	font-size: 20px;
+	background-color: #222222;
+	text-align: center;
+	color: #c3c3c3;
+	margin:0px !important;
+	overflow: hidden;
+	line-height: 13px;
+	
+}
+
+
+#footer{
+	width:100%;
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
+
